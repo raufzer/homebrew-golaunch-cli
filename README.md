@@ -8,7 +8,7 @@ This repository is a [Homebrew tap](https://docs.brew.sh/Taps) for the **Golaunc
 
 ### 1. Tap this repository
 ```bash
-brew tap raufzer/homebrew-tap
+brew tap raufzer/homebrew-golaunch-cli
 ```
 
 ### 2. Install Golaunch CLI
@@ -25,7 +25,7 @@ golaunch --version
 
 ## Usage
 
-After installation, you can use the Golaunch CLI to manage and launch your programs. For detailed usage instructions, visit the [Golaunch CLI repository](https://github.com/raufzer/golaunch-cli).
+After installation, you can use the Golaunch CLI to manage and launch your programs. For detailed usage instructions, visit the [GoLaunch CLI repository](https://github.com/raufzer/golaunch-cli).
 
 ---
 
@@ -34,8 +34,8 @@ After installation, you can use the Golaunch CLI to manage and launch your progr
 To uninstall Golaunch CLI and remove this tap:
 
 ```bash
-brew uninstall golaunch
-brew untap raufzer/homebrew-tap
+brew uninstall golaunch-cli
+brew untap raufzer/homebrew-golaunch-cli
 ```
 
 ---
