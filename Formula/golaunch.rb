@@ -10,7 +10,7 @@ class Golaunch < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_darwin_amd64.tar.gz"
-      sha256 "7b95dcb189740a624f7117201ff1866f489ab7ed56005a6435118f6dcb25347c"
+      sha256 "0a1b7f53a1999226785a73d54c40d57daa33f7a0078af83acdf25a40bb11a83d"
 
       def install
         bin.install "golaunch"
@@ -18,7 +18,7 @@ class Golaunch < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_darwin_arm64.tar.gz"
-      sha256 "d029978db9cfd2ff15cccf907955b1288a767ce44c5abda45034e3ba7ec2f121"
+      sha256 "08c19f63c0a450424fed372d790fe39d3a1701290a975c97ff64e8c5190bc50a"
 
       def install
         bin.install "golaunch"
@@ -30,7 +30,7 @@ class Golaunch < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_linux_amd64.tar.gz"
-        sha256 "9c0998ef115478c38ba502133fdb7eeee72e9b5059914ec926f881829ae534cd"
+        sha256 "ec5ede0ac7a0932790e7585a443fdc4cb240c209839f69637c7aa0ebacf7d387"
 
         def install
           bin.install "golaunch"
@@ -40,7 +40,7 @@ class Golaunch < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_linux_arm64.tar.gz"
-        sha256 "4e3098b5d0133cd5c00b82143509f98016413897e0e11d95f4b9a310628e2893"
+        sha256 "66e2feb160e9d03f4608edfc1b1c0de779918c9ecca8c0f9586df1a482253490"
 
         def install
           bin.install "golaunch"
