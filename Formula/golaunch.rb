@@ -5,20 +5,20 @@
 class Golaunch < Formula
   desc "Launch your favorite apps with a single command"
   homepage "https://github.com/raufzer/golaunch-cli"
-  version "2.0.0"
+  version "2.1.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/raufzer/golaunch-cli/releases/download/v2.0.0/golaunch-cli_2.0.0_darwin_amd64.tar.gz"
-      sha256 "6091f7e779f88b6e14200442bd6432e43de048903121036f2bfc618fcd7973a0"
+      url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_darwin_amd64.tar.gz"
+      sha256 "7b95dcb189740a624f7117201ff1866f489ab7ed56005a6435118f6dcb25347c"
 
       def install
         bin.install "golaunch"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/raufzer/golaunch-cli/releases/download/v2.0.0/golaunch-cli_2.0.0_darwin_arm64.tar.gz"
-      sha256 "31ee8fa315a446f6f58f97b3f96806a67614f87cdfc6502f0d7942f713a60ce6"
+      url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_darwin_arm64.tar.gz"
+      sha256 "d029978db9cfd2ff15cccf907955b1288a767ce44c5abda45034e3ba7ec2f121"
 
       def install
         bin.install "golaunch"
@@ -29,8 +29,8 @@ class Golaunch < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/raufzer/golaunch-cli/releases/download/v2.0.0/golaunch-cli_2.0.0_linux_amd64.tar.gz"
-        sha256 "955c6fc89f4e958334b36843cd6582d9d4f06dcbfef318f7d3bc7bb0bc1335c7"
+        url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_linux_amd64.tar.gz"
+        sha256 "9c0998ef115478c38ba502133fdb7eeee72e9b5059914ec926f881829ae534cd"
 
         def install
           bin.install "golaunch"
@@ -39,8 +39,8 @@ class Golaunch < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/raufzer/golaunch-cli/releases/download/v2.0.0/golaunch-cli_2.0.0_linux_arm64.tar.gz"
-        sha256 "7ea70c77666d3849f9026a61707ea1f2636c61c13e119171cb3d2c19b1bbfbe4"
+        url "https://github.com/raufzer/golaunch-cli/releases/download/v2.1.0/golaunch-cli_2.1.0_linux_arm64.tar.gz"
+        sha256 "4e3098b5d0133cd5c00b82143509f98016413897e0e11d95f4b9a310628e2893"
 
         def install
           bin.install "golaunch"
