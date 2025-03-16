@@ -13,7 +13,7 @@ brew tap raufzer/homebrew-golaunch-cli
 
 ### 2. Install GoLaunch CLI
 ```bash
-brew install raufzer/homebrew-golaunch-cli/golaunch
+brew install raufzer/homebrew-golaunch-cli
 ```
 
 ### 3. Verify Installation
@@ -54,5 +54,5 @@ If you'd like to contribute to the GoLaunch CLI or this tap, please refer to the
 
 ## License
 
-Abd Raouf Zerkhef - [zerkhefraouf90@gmail.com](mailto:zerkhefraouf90@gmail.com)
+Abd Raouf Zerkhef - [zerkhefraouf90@gmail.com](mailto:zerkhefrcom)
 
